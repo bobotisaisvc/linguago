@@ -37,7 +37,10 @@
 </main></div>
 <script>
 /* Masukkan URL dan anon/publishable key dari Supabase. Jangan pernah menaruh service_role key di browser. */
-const CONFIG={"https://tnpngygcisvcbolpgizx.supabase.co","sb_publishable_Ytc0OPziOCWBfFGftwjbow_pXeD8EW-"};
+const CONFIG = {
+  supabaseUrl: "https://tnpngygcisvcbolpgizx.supabase.co",
+  supabaseAnonKey: "sb_publishable_Ytc0OPziOCWBfFGftwjbow_pXeD8EW-"
+};
 const languages=[
 {id:"en",flag:"🇬🇧",name:"Bahasa Inggris",tag:"POPULER",level:"Pemula",desc:"Bahasa global untuk kerja, studi, dan perjalanan.",phrases:[["Hello!","Halo!","he-LOU"],["How are you?","Apa kabar?","hau ar yu"],["Thank you.","Terima kasih.","thengk yu"],["Please.","Tolong / silakan.","pliiz"],["Good morning.","Selamat pagi.","gud MOR-ning"],["My name is…","Nama saya…","mai neim iz"]]},
 {id:"jp",flag:"🇯🇵",name:"Bahasa Jepang",tag:"ASIA",level:"Pemula",desc:"Salam, frasa sehari-hari, dan budaya Jepang.",phrases:[["こんにちは","Halo","konnichiwa"],["ありがとう","Terima kasih","arigatou"],["お願いします","Tolong / mohon","onegaishimasu"],["おはようございます","Selamat pagi","ohayou gozaimasu"]]},
